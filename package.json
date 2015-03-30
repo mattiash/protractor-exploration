@@ -1,0 +1,27 @@
+{
+  "name": "protractor-exploration",
+  "version": "1.0.0",
+  "description": "Explore different protractor strategies",
+  "main": "run",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "protractor": "^2.0.0",
+    "jasmine-reporters": "^2.0.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mattiash/protractor-exploration.git"
+  },
+  "author": "Mattias Holmlund <mattias.git@holmlund.se>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattiash/protractor-exploration/issues"
+  },
+  "homepage": "https://github.com/mattiash/protractor-exploration"
+}

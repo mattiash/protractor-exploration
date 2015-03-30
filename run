@@ -1,0 +1,5 @@
+#!/usr/bin/env node
+
+var child_process = require("child_process");
+
+child_process.execFileSync("node_modules/protractor/bin/protractor", ["conf.js"]);
