@@ -8,6 +8,17 @@ exports.config = {
             savePath: 'testresults'
         }));
     },
-    seleniumAddress: 'http://localhost:4444/wd/hub',
-    specs: ['tests/spec.js']
-}
+
+    specs: ['tests/spec.js'],
+
+//    seleniumAddress: 'http://localhost:4444/wd/hub',
+
+    sauceUser: process.env.SAUCE_USERNAME,
+    sauceKey: process.env.SAUCE_ACCESS_KEY,
+//    directConnect: true,
+
+    // Capabilities to be passed to the webdriver instance.
+    capabilities: {
+        'browserName': 'chrome'
+    }
+};
